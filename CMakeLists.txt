@@ -56,3 +56,6 @@ add_executable(AoC13 13.cpp ParserHelper.h)
 target_link_libraries(AoC13 PRIVATE fmt::fmt range-v3::range-v3)
 target_compile_features(AoC13 PRIVATE cxx_std_20)
 
+add_executable(AoC14 14.cpp ParserHelper.h)
+target_link_libraries(AoC14 PRIVATE fmt::fmt range-v3::range-v3)
+target_compile_features(AoC14 PRIVATE cxx_std_20)
